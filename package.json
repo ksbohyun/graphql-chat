@@ -1,0 +1,24 @@
+{
+  "name": "graphql-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ksbohyun/graphql-chat.git",
+  "author": "<ksbohyun@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^7.0.2",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.11.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node server/index.js"
+  }
+}
